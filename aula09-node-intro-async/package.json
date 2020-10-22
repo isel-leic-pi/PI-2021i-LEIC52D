@@ -1,0 +1,14 @@
+{
+  "name": "aula09-node-intro-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app01-node-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request-sync": "^1.0.0"
+  }
+}
