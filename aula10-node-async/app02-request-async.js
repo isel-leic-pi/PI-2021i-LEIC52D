@@ -1,11 +1,15 @@
-const request = require('urllib')
+const urllib = require('urllib')
 
 const urls = ['http://example.com', 'https://dzone.com/', 'https://developer.android.com/']
 
 function bodyLength(url) {
-    const res = request('GET', url)
-    const body = res.getBody().toString()
-    console.log('>>>>' + url + ' body size: ' + body.length)
+    urllib.request(url, (err, body) => {
+        if(err) {
+            console.log(err)
+        } else {
+            console.log('>>>>' + url + ' body size: ' + body.length)
+        }
+    })
 }
 
 urls
