@@ -7,7 +7,7 @@ function bodyLength(url) {
         if(err) {
             console.log(err)
         } else {
-            console.log('>>>>' + url + ' body size: ' + body.length)
+            console.log('>>>>' + url + ' body size: ' + body.toString().length)
         }
     })
 }
