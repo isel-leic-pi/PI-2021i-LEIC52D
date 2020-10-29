@@ -14,3 +14,16 @@ const users = require('./users')
 function getTopTracks(username, limit, cb) {
 
 }
+
+/**
+ * Adds a new artist name to the array of artists of the User with 
+ * given username.
+ * Returns an Error both if there is not that username or there is no Artists with that name.
+ * 
+ * @param {*} username 
+ * @param {*} artist 
+ * @param {*} cb 
+ */
+function addArtist(username, artist, cb) {
+
+}

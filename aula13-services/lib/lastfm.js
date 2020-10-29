@@ -19,6 +19,16 @@ function getTopTracks(artist, cb) {
     })
 }
 
+/**
+ * @param {String} artist Artist name
+ * @param {function(Error, Array)} cb Callback receives an array of Artist objects with given name or 
+ * an Error if there is no Artist with given name.
+ */
+function searchArtist(artist, cb) {
+
+}
+
+
 module.exports = {
     'getTopTracks': getTopTracks
 }
