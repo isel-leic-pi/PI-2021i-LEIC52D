@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 'use strict'
 
-const users = require('./../lib/users').init('./__tests__/mocks/users.json')
+const users = require('./../lib/repo/users').init('./__tests__/mocks/users.json')
 
 test('Test users module getUser successfuly', done => {
     users.getUser('laurinda', (err, user) => {

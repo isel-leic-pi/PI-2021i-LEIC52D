@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 'use strict'
 
-const lastfm = require('./../lib/lastfm')
+const lastfm = require('./../lib/repo/lastfm')
 const urlib = require('urllib')
 const fs = require('fs')
 
