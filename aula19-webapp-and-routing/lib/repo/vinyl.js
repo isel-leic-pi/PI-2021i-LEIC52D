@@ -12,7 +12,18 @@ const users = require('./users').init()
  * @param {function(Error, Array)} cb 
  */
 function getTopTracks(username, limit, cb) {
-
+    users.getUser(username, (err, user) => {
+        if(err) return cb(err)
+        let artCount = user.artists.length
+        let ret = []
+        user.artists.forEach((artist) => {
+            lastfm.getTopTracks(artist, (err, tracks) => {
+                if(err) return cb(err)
+                ret = ret.concat(tracks.slice(0, limit))
+                if(--artCount <= 0) return cb(null, ret)
+            })
+        })
+    })
 }
 
 /**
@@ -26,4 +37,8 @@ function getTopTracks(username, limit, cb) {
  */
 function addArtist(username, artist, cb) {
 
+}
+
+module.exports = {
+    addArtist, getTopTracks
 }

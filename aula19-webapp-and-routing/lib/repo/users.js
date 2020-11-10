@@ -18,8 +18,19 @@ function getUser(username, cb) {
         if(err) return cb(err)
         const arr = JSON.parse(buffer)
         const selected = arr.filter(user => user.username == username)
-        if(selected.length == 0) return cb(new Error('There is no user ' + username))
+        if(selected.length == 0) return cb(null, null)
         cb(null, selected[0])
+    })
+}
+
+/**
+ * @param {function(Error, User)} cb 
+ */
+function getUsers(cb) {
+    fs.readFile(usersPath, (err, buffer) => {
+        if(err) return cb(err)
+        const arr = JSON.parse(buffer)
+        cb(null, arr)
     })
 }
 
@@ -50,6 +61,7 @@ function init(path) {
     if(path) usersPath = path
     return {
         getUser,
+        getUsers,
         addArtist,
         addUser
     }
