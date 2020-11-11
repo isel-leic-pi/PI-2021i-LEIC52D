@@ -59,12 +59,14 @@ function addArtist(username, artist, cb) {
 
 function init(path) {
     if(path) usersPath = path
-    return {
-        getUser,
-        getUsers,
-        addArtist,
-        addUser
-    }
+    return API
+}
+const API = {
+    init,
+    getUser,
+    getUsers,
+    addArtist,
+    addUser
 }
 
-module.exports = { init }
+module.exports = API

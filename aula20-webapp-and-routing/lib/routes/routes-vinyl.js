@@ -2,11 +2,9 @@
 
 const vinyl = require('./../repo/vinyl')
 const users = require('./../repo/users').init()
-const qs = require('querystring')
 
-function getUsersTopTracks(username, url, cb) {
-    const query = qs.parse(url)
-    vinyl.getTopTracks(username, query.limit, (err, tracks) => {
+function getUsersTopTracks(username, params, cb) {
+    vinyl.getTopTracks(username, params.get('limit'), (err, tracks) => {
         if(err) return cb({ 
             'status': 500,
             'msg': err.toString()

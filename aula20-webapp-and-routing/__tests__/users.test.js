@@ -17,7 +17,7 @@ test('Test users module getUser successfuly', done => {
 test('Test users module getUser for absent username', done => {
     users.getUser('jose', (err, user) => {
         // Assert that does not exist err
-        expect(err).toBeTruthy()
+        expect(user).toBeFalsy()
         done()
     })
 })
