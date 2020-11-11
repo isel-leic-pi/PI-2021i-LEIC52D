@@ -12,6 +12,19 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\lib\\index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Tests",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceRoot}\\node_modules\\jest\\bin\\jest.js",
+            "args": [
+                "-i"
+            ]
         }
+
     ]
 }

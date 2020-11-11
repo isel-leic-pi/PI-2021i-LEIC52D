@@ -4,7 +4,8 @@ const vinyl = require('./../repo/vinyl')
 const users = require('./../repo/users').init()
 
 function getUsersTopTracks(username, params, cb) {
-    vinyl.getTopTracks(username, params.get('limit'), (err, tracks) => {
+    const limit = params.get('limit') | 3
+    vinyl.getTopTracks(username, limit, (err, tracks) => {
         if(err) return cb({ 
             'status': 500,
             'msg': err.toString()

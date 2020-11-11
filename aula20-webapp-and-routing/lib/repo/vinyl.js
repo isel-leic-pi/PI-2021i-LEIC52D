@@ -1,7 +1,7 @@
 'use strict'
 
 const lastfm = require('./lastfm')
-const users = require('./users').init()
+const users = require('./users')
 
 /**
  * Returns an array with limit top tracks of each favourite artist
