@@ -8,6 +8,9 @@ const PATH_USERS = '/vinyl/users'
 const PATH_USERS_DETAILS = /\/vinyl\/users\/(.*)/
 const PATH_USERS_TOPTRACKS = /\/vinyl\/users\/(.*)\/toptracks/
 
+if(process.argv.length > 2) {
+    require('./repo/users').init(process.argv[2])
+}
 
 const server = http.createServer((req, resp) => {
     let path
