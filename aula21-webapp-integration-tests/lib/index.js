@@ -17,7 +17,7 @@ const server = http.createServer((req, resp) => {
     } else if((path = req.url.match(PATH_USERS_DETAILS))) {
         routes.getUserDetails(path[1], (err, user) => send(resp, err, user))
     } else if(req.url.match(PATH_USERS)) {
-        routes.getUsers((err, users) => send(resp, err, users))
+        routes.getUsers(req.headers.host, (err, users) => send(resp, err, users))
     } else {
         resp.writeHead(404, 'Resource not found!!!!!')
         resp.end()

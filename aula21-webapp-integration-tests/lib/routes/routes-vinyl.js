@@ -28,13 +28,17 @@ function getUserDetails(username, cb) {
     })
 }
 
-function getUsers(cb) {
+function getUsers(host, cb) {
     users.getUsers((err, users) => {
         if(err) return cb({ 
             'status': 500,
             'msg': err.toString()
         })
-        cb(null, users)
+         cb(null, users.map(user => {
+            user.details = `http://${host}/vinyl/users/${user.username}`
+            user.toptracks = `http://${host}/vinyl/users/${user.username}/toptracks`
+            return user
+        }))
     })
 }
 
