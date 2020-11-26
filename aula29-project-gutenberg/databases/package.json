@@ -1,0 +1,21 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch --reporter min"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-dir": "^0.1.17"
+  }
+}
