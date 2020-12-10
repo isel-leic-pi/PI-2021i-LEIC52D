@@ -1,6 +1,7 @@
 'use strict'
 
 const urllib = require('urllib')
+const asyncutils = require('./../../asyncutils')
 
 class Bundles {
 
@@ -52,12 +53,7 @@ class Bundles {
      * @param {function(Error)} cb 
      */
     addBook(id, pgid, cb){
-        const task1 = cb => {
-            this.get(id, (err, bundle) => { // Get the Bundle
-                if(err) cb(err)
-                else cb(null, bundle)
-            })
-        }
+        const task1 = cb => this.get(id, cb)
         const task2 = cb => { 
             const url = `${this.urlBooks}${pgid}`
             urllib.request(url, (err, body, res) => { // Check the book
@@ -67,21 +63,8 @@ class Bundles {
                 }
             })
         }
-        let failed, bundle, book
-        task1((err, b) => {
-            if(failed) return
-            if(err) return insertBookInBundle(failed = err)
-            bundle = b
-            if(book) insertBookInBundle(null, b, book)
-        })
-        task2((err, b) => {
-            if(failed) return
-            if(err) return insertBookInBundle(failed = err)
-            book = b
-            if(bundle) insertBookInBundle(null, bundle, b)
-        })
-
-        const insertBookInBundle = (err, bundle, book) => {
+        asyncutils.parallel([task1, task2], (err, res) => {
+            const [bundle, book] = res
             if(err) return cb(err)
             const idx = bundle.books.findIndex(b => b.id == pgid)
             if(idx >= 0) 
@@ -97,7 +80,7 @@ class Bundles {
                     cb(null, JSON.parse(body))
                 }
             })
-        }
+        })
     }
 }
 
