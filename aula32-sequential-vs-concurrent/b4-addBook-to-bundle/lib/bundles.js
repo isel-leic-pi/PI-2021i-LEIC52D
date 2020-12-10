@@ -52,35 +52,62 @@ class Bundles {
      * @param {function(Error)} cb 
      */
     addBook(id, pgid, cb){
-        this.get(id, (err, bundle) => { // Get the Bundle
-            if(err) 
-                return cb(err)
+        const task1 = cb => {
+            this.get(id, (err, bundle) => { // Get the Bundle
+                if(err) cb(err)
+                else cb(null, bundle)
+            })
+        }
+        const task2 = cb => { 
             const url = `${this.urlBooks}${pgid}`
             urllib.request(url, (err, body, res) => { // Check the book
                 if(!checkError(200, cb, err, res, body)) {
-                    const book = JSON.parse(body)._source
-                    const idx = bundle.books.findIndex(b => b.id == pgid)
-                    if(idx >= 0) 
-                        return cb(null)  // If the book already exists in bundle do nothing
-                    bundle.books.push({
-                        'id': pgid,
-                        'title': book.title
-                    })
-                    const options = {
-                        method: 'PUT',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        content: JSON.stringify(bundle)
-                    }
-                    urllib.request(`${this.urlBundles}${id}`, options, (err, body, res) => {
-                        if(!checkError(200, cb, err, res, body)) {
-                            cb(null, JSON.parse(body))
-                        }
-                    })
+                    const book = JSON.parse(body)._source      
+                    cb(null, book)
                 }
             })
+        }
+        let failed, bundle, book
+        task1((err, b) => {
+            if(failed) return
+            if(err) return insertBookInBundle(failed = err)
+            bundle = b
+            if(book) insertBookInBundle(null, b, book)
         })
+        task2((err, b) => {
+            if(failed) return
+            if(err) return insertBookInBundle(failed = err)
+            book = b
+            if(bundle) insertBookInBundle(null, bundle, b)
+        })
+
+        const insertBookInBundle = (err, bundle, book) => {
+            if(err) return cb(err)
+            const idx = bundle.books.findIndex(b => b.id == pgid)
+            if(idx >= 0) 
+                return cb(null)  // If the book already exists in bundle do nothing
+            // Insert Book in Bundle and save to ElasticSearch through an HTTP request
+            bundle.books.push({
+                'id': pgid,
+                'title': book.title
+            })
+            const opt = options('PUT', bundle)
+            urllib.request(`${this.urlBundles}${id}`, opt, (err, body, res) => {
+                if(!checkError(200, cb, err, res, body)) {
+                    cb(null, JSON.parse(body))
+                }
+            })
+        }
+    }
+}
+
+function options(method, content) {
+    return {
+        method: method,
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        content: JSON.stringify(content)
     }
 }
 
