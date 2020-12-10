@@ -4,15 +4,29 @@ const lastfm = require('./lastfm')
 const users = require('./users').init()
 
 /**
- * Returns an array with limit top tracks of each favourite artist
- * of the User with username.
- * 
+ * Retrieves the top tracks (limit) of the favourite artists
+ * for the given username.
+ * Notice it returns a single Array flatten with thos tracks.
  * @param {String} username 
- * @param {Number} limit 
  * @param {function(Error, Array)} cb 
  */
 function getTopTracks(username, limit, cb) {
-
+    users.getUser(username, (err, user) => {
+        if(err) return cb(err)
+        const arr = []
+        let count = 0
+        user.artists.forEach(artist => 
+            lastfm.getTopTracks(artist, (err, tracks) => {
+                if(err) return cb(err)
+                count++
+                tracks
+                    .slice(0, limit)
+                    .forEach(t => arr.push(t))
+                if(count == user.artists.length)
+                    cb(null, arr)
+            })
+        )
+    })
 }
 
 /**
@@ -25,5 +39,17 @@ function getTopTracks(username, limit, cb) {
  * @param {*} cb 
  */
 function addArtist(username, artist, cb) {
+    users.getUser(username, (err, user) => {
+        if(err) return cb(err)
+        lastfm.searchArtist(artist, (err, arr) => {
+            if(err) return cb(err)
+            if(arr.length == 0) return cb(Error('There is no artist with name ' + artist))
+            users.addArtist(username, arr[0].name, cb)
+        })
+    })
+}
 
+module.exports = {
+    getTopTracks,
+    addArtist
 }

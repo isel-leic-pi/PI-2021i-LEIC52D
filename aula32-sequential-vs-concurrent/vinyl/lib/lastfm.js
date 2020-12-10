@@ -5,6 +5,7 @@ const urllib = require('urllib')
 const LASTFM_HOST = 'http://ws.audioscrobbler.com/2.0/'
 const LASTFM_KEY = '79b2506be8ce86d852882e1774f1f2e8'
 const LASTFM_TOP_TRACKS = `?method=artist.gettoptracks&format=json&api_key=${LASTFM_KEY}&artist=`
+const LASTFM_SEARCH = `?method=artist.search&format=json&api_key=${LASTFM_KEY}&artist=`
 
 /**
  * @param {String} artist Name of the band or artist.
@@ -25,10 +26,16 @@ function getTopTracks(artist, cb) {
  * an Error if there is no Artist with given name.
  */
 function searchArtist(artist, cb) {
-
+    const path = LASTFM_HOST + LASTFM_SEARCH + artist
+    urllib.request(path, (err, data, res) => {
+        if(err) return cb(err)
+        const obj = JSON.parse(data)
+        cb(null, obj.results.artistmatches.artist)
+    })
 }
 
 
 module.exports = {
-    'getTopTracks': getTopTracks
+    getTopTracks,
+    searchArtist
 }

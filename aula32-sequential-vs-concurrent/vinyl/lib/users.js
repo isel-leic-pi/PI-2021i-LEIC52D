@@ -40,10 +40,18 @@ function addUser(username, cb) {
  * 
  * @param {String} username 
  * @param {String} artist 
- * @param {function(Error, User)} cb 
+ * @param {function(Error)} cb 
  */
 function addArtist(username, artist, cb) {
-
+    fs.readFile(usersPath, (err, buffer) => {
+        if(err) return cb(err)
+        const arr = JSON.parse(buffer)
+        const selected = arr.filter(user => user.username == username)
+        if(selected.length == 0) return cb(new Error('There is no user ' + username))
+        const user =  selected[0]
+        user.artists.push(artist)
+        fs.writeFile(usersPath, JSON.stringify(arr, null, 4), cb)
+    })
 }
 
 function init(path) {
