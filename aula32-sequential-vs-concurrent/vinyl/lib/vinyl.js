@@ -2,6 +2,8 @@
 
 const lastfm = require('./lastfm')
 const users = require('./users').init()
+const asyncutils = require('./../../asyncutils')
+
 
 /**
  * Retrieves the top tracks (limit) of the favourite artists
@@ -41,26 +43,12 @@ function getTopTracks(username, limit, cb) {
 function addArtist(username, artist, cb) {
     const task1 = cb => users.getUser(username, cb)
     const task2 = cb => lastfm.searchArtist(artist, cb)
-    let failed
-    let user, arr
-    task1((err, u) => {
-        if(failed) return
-        if(err) return insertArtisInUser(failed = err)
-        user = u
-        if (arr) insertArtisInUser(null, u, arr)
-    })
-    task2((err, a) => {
-        if(failed) return
-        if(err) return insertArtisInUser(failed = err)
-        arr = a
-        if (user) insertArtisInUser(null, user, a)
-    })
-    const insertArtisInUser = (err, user, arr) => {
+    asyncutils.parallel([task1, task2], (err, res) => {
+        const arr = res[1]
         if(err) return cb(err)
         if(arr.length == 0) return cb(Error('There is no artist with name ' + artist))
         users.addArtist(username, arr[0].name, cb)
-    } 
-
+    })
 }
 
 module.exports = {
