@@ -14,12 +14,16 @@ afterAll(done => {
 test('Add artist to user', done => {
     vinyl.addArtist('laurinda', 'weeknd', (err) => {
         expect(err).toBeFalsy()
-        users.getUser('laurinda', (err, lau) => {
-            expect(err).toBeFalsy()
-            const weeknd = lau.artists.find(a => a === 'The Weeknd')
-            expect(weeknd).toBeTruthy()
-            done()
-        })
+        users
+            .getUser('laurinda')
+            .then(lau => {
+                const weeknd = lau.artists.find(a => a === 'The Weeknd')
+                expect(weeknd).toBeTruthy()
+            })
+            .catch(err => {
+                expect(err).toBeFalsy()
+            })
+            .then(() => done())
     })
 })
 

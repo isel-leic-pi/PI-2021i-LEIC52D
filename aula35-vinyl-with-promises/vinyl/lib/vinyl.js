@@ -13,22 +13,24 @@ const asyncutils = require('./../../asyncutils')
  * @param {function(Error, Array)} cb 
  */
 function getTopTracks(username, limit, cb) {
-    users.getUser(username, (err, user) => {
-        if(err) return cb(err)
-        const arr = []
-        let count = 0
-        user.artists.forEach(artist => 
-            lastfm.getTopTracks(artist, (err, tracks) => {
-                if(err) return cb(err)
-                count++
-                tracks
-                    .slice(0, limit)
-                    .forEach(t => arr.push(t))
-                if(count == user.artists.length)
-                    cb(null, arr)
-            })
-        )
-    })
+    users
+        .getUser(username)
+        .then(user => {
+            const arr = []
+            let count = 0
+            user.artists.forEach(artist => 
+                lastfm.getTopTracks(artist, (err, tracks) => {
+                    if(err) return cb(err)
+                    count++
+                    tracks
+                        .slice(0, limit)
+                        .forEach(t => arr.push(t))
+                    if(count == user.artists.length)
+                        cb(null, arr)
+                })
+            )
+        })
+        .catch(err => cb(err))
 }
 
 /**
@@ -41,13 +43,15 @@ function getTopTracks(username, limit, cb) {
  * @param {*} cb 
  */
 function addArtist(username, artist, cb) {
-    const task1 = cb => users.getUser(username, cb)
+    const task1 = cb => users.getUser(username).then(user => cb(null, user), cb)
     const task2 = cb => lastfm.searchArtist(artist, cb)
     asyncutils.parallel([task1, task2], (err, res) => {
         if(err) return cb(err)
         const arr = res[1]
         if(arr.length == 0) return cb(Error('There is no artist with name ' + artist))
-        users.addArtist(username, arr[0].name, cb)
+        users
+            .addArtist(username, arr[0].name)
+            .then(() => cb(), cb)
     })
 }
 

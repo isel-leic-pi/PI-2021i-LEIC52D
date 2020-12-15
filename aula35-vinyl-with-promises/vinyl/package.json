@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "urllib": "^2.36.1"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",

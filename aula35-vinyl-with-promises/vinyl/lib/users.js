@@ -1,6 +1,6 @@
 'use strict'
 
-const fs = require('fs')
+const fs = require('fs').promises
 
 let usersPath = './data/users.json'
 
@@ -11,26 +11,25 @@ let usersPath = './data/users.json'
  */
 /**
  * @param {String} username 
- * @param {function(Error, User)} cb 
+ * @returns {Promise<User>}
  */
-function getUser(username, cb) {
-    fs.readFile(usersPath, (err, buffer) => {
-        if(err) return cb(err)
-        const arr = JSON.parse(buffer)
-        const selected = arr.filter(user => user.username == username)
-        if(selected.length == 0) return cb(new Error('There is no user ' + username))
-        cb(null, selected[0])
-    })
+function getUser(username) {
+    return fs
+        .readFile(usersPath)
+        .then(buffer => {
+            const arr = JSON.parse(buffer)
+            const selected = arr.filter(user => user.username == username)
+            if(selected.length == 0) throw new Error('There is no user ' + username)
+            return selected[0]
+        })
 }
 
 /**
  * Add a new User object with given username if it does not exist yet.
  * Returns an Error if that username already exist.
  * @param {String} username 
- * @param {function(Error)}
  */
-function addUser(username, cb) {
-
+function addUser(username) {
 }
 
 /**
@@ -40,18 +39,18 @@ function addUser(username, cb) {
  * 
  * @param {String} username 
  * @param {String} artist 
- * @param {function(Error)} cb 
  */
-function addArtist(username, artist, cb) {
-    fs.readFile(usersPath, (err, buffer) => {
-        if(err) return cb(err)
-        const arr = JSON.parse(buffer)
-        const selected = arr.filter(user => user.username == username)
-        if(selected.length == 0) return cb(new Error('There is no user ' + username))
-        const user =  selected[0]
-        user.artists.push(artist)
-        fs.writeFile(usersPath, JSON.stringify(arr, null, 4), cb)
-    })
+function addArtist(username, artist) {
+    return fs
+        .readFile(usersPath)
+        .then(buffer => {
+            const arr = JSON.parse(buffer)
+            const selected = arr.filter(user => user.username == username)
+            if(selected.length == 0) throw new Error('There is no user ' + username)
+            const user =  selected[0]
+            user.artists.push(artist)
+            return fs.writeFile(usersPath, JSON.stringify(arr, null, 4))
+        })
 }
 
 function init(path) {

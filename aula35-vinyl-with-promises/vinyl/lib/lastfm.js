@@ -1,6 +1,6 @@
 'use strict'
 
-const urllib = require('urllib')
+const fetch = require('node-fetch')
 
 const LASTFM_HOST = 'http://ws.audioscrobbler.com/2.0/'
 const LASTFM_KEY = '79b2506be8ce86d852882e1774f1f2e8'
@@ -9,29 +9,24 @@ const LASTFM_SEARCH = `?method=artist.search&format=json&api_key=${LASTFM_KEY}&a
 
 /**
  * @param {String} artist Name of the band or artist.
- * @param {function(Error, Array)} cb Callback receiving an array with tracks names or Error if not succeeded
+ * @returns {Promise<Array>} Array with tracks names or Error if not succeeded
  */
-function getTopTracks(artist, cb) {
+function getTopTracks(artist) {
     const path = LASTFM_HOST + LASTFM_TOP_TRACKS + artist
-    urllib.request(path, (err, data, res) => {
-        if(err) return cb(err)
-        const obj = JSON.parse(data)
-        cb(null, obj.toptracks.track.map(t => t.name))
-    })
+    return fetch(path)           // Promise<Response>
+        .then(res => res.json()) // Promise<Promise<Object>>
+        .then(obj => obj.toptracks.track.map(t => t.name))
 }
 
 /**
  * @param {String} artist Artist name
- * @param {function(Error, Array)} cb Callback receives an array of Artist objects with given name or 
- * an Error if there is no Artist with given name.
+ * @returns {Promise<Array>} Array of Artist objects with given name.
  */
-function searchArtist(artist, cb) {
+function searchArtist(artist) {
     const path = LASTFM_HOST + LASTFM_SEARCH + artist
-    urllib.request(path, (err, data, res) => {
-        if(err) return cb(err)
-        const obj = JSON.parse(data)
-        cb(null, obj.results.artistmatches.artist)
-    })
+    return fetch(path)
+        .then(res => res.json()) // Promise<Promise<Object>>
+        .then(obj => obj.results.artistmatches.artist)
 }
 
 
