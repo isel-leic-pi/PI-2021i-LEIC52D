@@ -33,12 +33,10 @@ function addArtist(username, artist) {
     const task2 = lastfm.searchArtist(artist)
     return Promise
         .all([task1, task2])
-        .then(res => {
-            const arr = res[1]
+        .then(([user, arr]) => {
             if(arr.length == 0) throw Error('There is no artist with name ' + artist)
-            return arr[0].name
+            return users.addArtist(user.username, arr[0].name)
         })
-        .then(name => users.addArtist(username, name))
 }
 
 module.exports = {
