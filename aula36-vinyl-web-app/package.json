@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "express-sitemap-html": "^1.0.3",
+    "hbs": "^4.1.1",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {

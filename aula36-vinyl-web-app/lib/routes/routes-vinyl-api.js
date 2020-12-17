@@ -1,22 +1,27 @@
 'use strict'
 
-const vinyl = require('./../repo/vinyl')
-const users = require('./../repo/users').init()
+const vinyl = require('../repo/vinyl')
+const users = require('../repo/users').init()
 const Router = require('express').Router
 const router = Router()
 
 module.exports = router
 
-router.get('/vinyl/users/:username/toptracks', (req, resp, next) => {
+router.get('/vinyl/users/:username/toptracks', handlerUserTopTracks)
+router.get('/vinyl/users/:username', handlerUserDetails)
+router.get('/vinyl/users', handlerAllUsers)
+
+
+function handlerUserTopTracks (req, resp, next) {
     const limit = req.query.limit | 3
     const username = req.params.username
     vinyl
         .getTopTracks(username, limit)
         .then(tracks => resp.json(tracks))
         .catch(next)
-})
+}
 
-router.get('/vinyl/users/:username', (req, resp, next) => {
+function handlerUserDetails (req, resp, next) {
     const username = req.params.username
     users
         .getUser(username)
@@ -29,9 +34,9 @@ router.get('/vinyl/users/:username', (req, resp, next) => {
             resp.json(user)
         })
         .catch(next)
-})
+}
 
-router.get('/vinyl/users', (req, resp, next) => {
+function handlerAllUsers (req, resp, next) {
     const host = req.headers.host
     users
         .getUsers()
@@ -41,4 +46,4 @@ router.get('/vinyl/users', (req, resp, next) => {
             return user
         })))
         .catch(next)
-})
+}

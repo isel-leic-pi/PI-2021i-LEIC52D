@@ -10,7 +10,6 @@ function getUsers() {
         .then(buffer => JSON.parse(buffer))
 }
 
-
 /**
  * @typedef User
  * @property {String} username

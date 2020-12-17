@@ -1,14 +1,27 @@
 'use strict'
 
 const express = require('express')
-const routes = require('./routes/routes-vinyl')
+const routesApi = require('./routes/routes-vinyl-api')
+const routesWeb = require('./routes/routes-vinyl-web')
+const sitemap = require('express-sitemap-html')
 let server
 
 function init(usersPath, done) {
     if(usersPath)
         require('./repo/users').init(usersPath)
     const app = express()
-    app.use(routes)
+    app.set('view engine', 'hbs')
+    app.set('views', './lib/views')
+    /**
+     * Routes
+     */
+    app.get('/sitemap', sitemap(app))
+    app.use('/api', routesApi)
+    app.use(routesWeb)
+
+    /**
+     * Error Handler
+     */
     app.use((err, req, resp, next) => {
         if(err.status) resp.status(err.status)
         else (resp.status(500))
