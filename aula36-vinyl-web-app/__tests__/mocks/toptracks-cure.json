@@ -1,0 +1,1713 @@
+{
+    "toptracks": {
+        "track": [
+            {
+                "name": "Friday I'm in Love",
+                "playcount": "8565633",
+                "listeners": "1158082",
+                "mbid": "8d9104c6-7d8e-460b-8c3d-2d797f79953d",
+                "url": "https://www.last.fm/music/The+Cure/_/Friday+I%27m+in+Love",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "1"
+                }
+            },
+            {
+                "name": "Just Like Heaven",
+                "playcount": "8173392",
+                "listeners": "1064855",
+                "mbid": "c0c78d3e-19fc-4227-bdbb-153814f05527",
+                "url": "https://www.last.fm/music/The+Cure/_/Just+Like+Heaven",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "2"
+                }
+            },
+            {
+                "name": "Boys Don't Cry",
+                "playcount": "7664377",
+                "listeners": "1059021",
+                "mbid": "fa1cf5a0-b942-46ed-9ca0-3773fb52cbb6",
+                "url": "https://www.last.fm/music/The+Cure/_/Boys+Don%27t+Cry",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "3"
+                }
+            },
+            {
+                "name": "Lullaby",
+                "playcount": "6255639",
+                "listeners": "863815",
+                "mbid": "7eca082a-4b79-49d9-812d-1c9711cfe346",
+                "url": "https://www.last.fm/music/The+Cure/_/Lullaby",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "4"
+                }
+            },
+            {
+                "name": "Close to Me",
+                "playcount": "5549618",
+                "listeners": "851301",
+                "mbid": "b3f2fb94-2633-4c85-a796-94d231ec3026",
+                "url": "https://www.last.fm/music/The+Cure/_/Close+to+Me",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "5"
+                }
+            },
+            {
+                "name": "Lovesong",
+                "playcount": "6268296",
+                "listeners": "849310",
+                "mbid": "1cb233e4-bd40-488e-b20b-1ff88cb9d27e",
+                "url": "https://www.last.fm/music/The+Cure/_/Lovesong",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "6"
+                }
+            },
+            {
+                "name": "Pictures of You",
+                "playcount": "4459778",
+                "listeners": "667320",
+                "mbid": "9e1b7d33-df24-4c20-9069-8b3e70aaca9a",
+                "url": "https://www.last.fm/music/The+Cure/_/Pictures+of+You",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "7"
+                }
+            },
+            {
+                "name": "A Forest",
+                "playcount": "3890342",
+                "listeners": "621639",
+                "mbid": "ff288b39-421c-4ec2-805c-00a5cb6b2476",
+                "url": "https://www.last.fm/music/The+Cure/_/A+Forest",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "8"
+                }
+            },
+            {
+                "name": "Inbetween Days",
+                "playcount": "3848897",
+                "listeners": "580914",
+                "mbid": "454d3f46-fa77-4d3a-93b7-0987ef19f88c",
+                "url": "https://www.last.fm/music/The+Cure/_/Inbetween+Days",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "9"
+                }
+            },
+            {
+                "name": "The Lovecats",
+                "playcount": "2681227",
+                "listeners": "502352",
+                "mbid": "1c19fbb9-edce-49e1-a934-de6071dd7964",
+                "url": "https://www.last.fm/music/The+Cure/_/The+Lovecats",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "10"
+                }
+            },
+            {
+                "name": "Fascination Street",
+                "playcount": "2471852",
+                "listeners": "409844",
+                "mbid": "6705cfd7-41ab-481a-8c84-9e8ef7f34f36",
+                "url": "https://www.last.fm/music/The+Cure/_/Fascination+Street",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "11"
+                }
+            },
+            {
+                "name": "High",
+                "playcount": "1860640",
+                "listeners": "390830",
+                "mbid": "b5b859af-e83b-485f-8959-a844a13ad053",
+                "url": "https://www.last.fm/music/The+Cure/_/High",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "12"
+                }
+            },
+            {
+                "name": "Why Can't I Be You?",
+                "playcount": "1866344",
+                "listeners": "385462",
+                "mbid": "9d09031e-764e-4095-afb8-4caa0c82a2c3",
+                "url": "https://www.last.fm/music/The+Cure/_/Why+Can%27t+I+Be+You%3F",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "13"
+                }
+            },
+            {
+                "name": "Let's Go to Bed",
+                "playcount": "1803579",
+                "listeners": "366597",
+                "mbid": "40b6d07c-b0a7-4403-8b26-7f8248fd0052",
+                "url": "https://www.last.fm/music/The+Cure/_/Let%27s+Go+to+Bed",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "14"
+                }
+            },
+            {
+                "name": "Plainsong",
+                "playcount": "1931023",
+                "listeners": "354978",
+                "mbid": "639e5e90-0096-402b-b8cc-70376d19e6bd",
+                "url": "https://www.last.fm/music/The+Cure/_/Plainsong",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "15"
+                }
+            },
+            {
+                "name": "The Walk",
+                "playcount": "1582539",
+                "listeners": "327193",
+                "mbid": "dffb2930-7ef6-4adf-882f-e66fac926273",
+                "url": "https://www.last.fm/music/The+Cure/_/The+Walk",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "16"
+                }
+            },
+            {
+                "name": "Mint Car",
+                "playcount": "1386916",
+                "listeners": "307610",
+                "mbid": "068f70b7-e60a-45b3-8f33-d24be4165cd1",
+                "url": "https://www.last.fm/music/The+Cure/_/Mint+Car",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "17"
+                }
+            },
+            {
+                "name": "Disintegration",
+                "playcount": "1763816",
+                "listeners": "272782",
+                "mbid": "a32db75a-7d8b-40ef-a05e-b1ac6a318b8b",
+                "url": "https://www.last.fm/music/The+Cure/_/Disintegration",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "18"
+                }
+            },
+            {
+                "name": "Closedown",
+                "playcount": "1383654",
+                "listeners": "269118",
+                "mbid": "7e65d186-ab6a-4659-9e6e-8dca3bced6bc",
+                "url": "https://www.last.fm/music/The+Cure/_/Closedown",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "19"
+                }
+            },
+            {
+                "name": "Last Dance",
+                "playcount": "1381116",
+                "listeners": "265888",
+                "mbid": "3eccd9b2-39c6-4225-96c4-f0ec03bc1d75",
+                "url": "https://www.last.fm/music/The+Cure/_/Last+Dance",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "20"
+                }
+            },
+            {
+                "name": "Never Enough",
+                "playcount": "1086665",
+                "listeners": "262424",
+                "mbid": "06d990a3-d55f-498b-b3d7-17a88aa2f92e",
+                "url": "https://www.last.fm/music/The+Cure/_/Never+Enough",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "21"
+                }
+            },
+            {
+                "name": "Prayers for Rain",
+                "playcount": "1342443",
+                "listeners": "255839",
+                "mbid": "e7626cfa-c6db-4494-befb-c4ce5de4261a",
+                "url": "https://www.last.fm/music/The+Cure/_/Prayers+for+Rain",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "22"
+                }
+            },
+            {
+                "name": "A Letter To Elise",
+                "playcount": "1374939",
+                "listeners": "248565",
+                "mbid": "eed8b85c-beb8-40d7-88d8-1b1b3bb2e730",
+                "url": "https://www.last.fm/music/The+Cure/_/A+Letter+To+Elise",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "23"
+                }
+            },
+            {
+                "name": "Killing An Arab",
+                "playcount": "1109835",
+                "listeners": "233287",
+                "mbid": "522168da-041a-49f6-8ddc-77f1865732dc",
+                "url": "https://www.last.fm/music/The+Cure/_/Killing+An+Arab",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "24"
+                }
+            },
+            {
+                "name": "Cut Here",
+                "playcount": "1004948",
+                "listeners": "222637",
+                "mbid": "545ec7f6-c39f-4892-b225-ffdd9889b166",
+                "url": "https://www.last.fm/music/The+Cure/_/Cut+Here",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "25"
+                }
+            },
+            {
+                "name": "Play for Today",
+                "playcount": "1126699",
+                "listeners": "222230",
+                "mbid": "3cf02bee-f4b0-4ccc-9aa6-220d4801b074",
+                "url": "https://www.last.fm/music/The+Cure/_/Play+for+Today",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "26"
+                }
+            },
+            {
+                "name": "The Hanging Garden",
+                "playcount": "1025396",
+                "listeners": "213053",
+                "mbid": "2ea57973-4b91-47d2-9b53-5d22f0c8aa48",
+                "url": "https://www.last.fm/music/The+Cure/_/The+Hanging+Garden",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "27"
+                }
+            },
+            {
+                "name": "Homesick",
+                "playcount": "1076338",
+                "listeners": "212683",
+                "mbid": "2490533e-6565-4cd8-9fd6-7680010c3cd1",
+                "url": "https://www.last.fm/music/The+Cure/_/Homesick",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "28"
+                }
+            },
+            {
+                "name": "Wrong Number",
+                "playcount": "870410",
+                "listeners": "212546",
+                "mbid": "cd781caa-31f0-4189-8c07-c737245b1964",
+                "url": "https://www.last.fm/music/The+Cure/_/Wrong+Number",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "29"
+                }
+            },
+            {
+                "name": "The Same Deep Water as You",
+                "playcount": "1108330",
+                "listeners": "212075",
+                "mbid": "84134d6c-2e6d-4122-8701-a166682e2173",
+                "url": "https://www.last.fm/music/The+Cure/_/The+Same+Deep+Water+as+You",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "30"
+                }
+            },
+            {
+                "name": "Catch",
+                "playcount": "920902",
+                "listeners": "208409",
+                "mbid": "999caf21-ec33-4d9e-8d6b-2fc704de418d",
+                "url": "https://www.last.fm/music/The+Cure/_/Catch",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "31"
+                }
+            },
+            {
+                "name": "A Night Like This",
+                "playcount": "1093858",
+                "listeners": "204590",
+                "mbid": "707c165f-3cf5-4977-b253-450fcc60bff7",
+                "url": "https://www.last.fm/music/The+Cure/_/A+Night+Like+This",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "32"
+                }
+            },
+            {
+                "name": "Jumping Someone Else's Train",
+                "playcount": "895642",
+                "listeners": "203118",
+                "mbid": "ead66ea9-50ca-4bb3-804b-cf97705eb5c6",
+                "url": "https://www.last.fm/music/The+Cure/_/Jumping+Someone+Else%27s+Train",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "33"
+                }
+            },
+            {
+                "name": "Fire In Cairo",
+                "playcount": "988492",
+                "listeners": "202494",
+                "mbid": "f44ebc7a-3f6d-4d05-8af3-c9bd97eeb650",
+                "url": "https://www.last.fm/music/The+Cure/_/Fire+In+Cairo",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "34"
+                }
+            },
+            {
+                "name": "One Hundred Years",
+                "playcount": "1079995",
+                "listeners": "193978",
+                "mbid": "a61fe0c4-8181-4496-8880-e970f4454b45",
+                "url": "https://www.last.fm/music/The+Cure/_/One+Hundred+Years",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "35"
+                }
+            },
+            {
+                "name": "Primary",
+                "playcount": "916139",
+                "listeners": "192560",
+                "mbid": "50a87add-f5b5-4393-b5fb-6c197f68b1af",
+                "url": "https://www.last.fm/music/The+Cure/_/Primary",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "36"
+                }
+            },
+            {
+                "name": "Just Say Yes",
+                "playcount": "702008",
+                "listeners": "187648",
+                "mbid": "6deb7442-da6d-42e0-b759-f3521be42771",
+                "url": "https://www.last.fm/music/The+Cure/_/Just+Say+Yes",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "37"
+                }
+            },
+            {
+                "name": "Untitled",
+                "playcount": "825847",
+                "listeners": "173162",
+                "mbid": "73b3e2b4-7073-40e5-ad2f-46423d384f72",
+                "url": "https://www.last.fm/music/The+Cure/_/Untitled",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "38"
+                }
+            },
+            {
+                "name": "10:15 Saturday Night",
+                "playcount": "737928",
+                "listeners": "171130",
+                "mbid": "c497b3ad-ebdb-46dc-b7c5-a10556357ffc",
+                "url": "https://www.last.fm/music/The+Cure/_/10:15+Saturday+Night",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "39"
+                }
+            },
+            {
+                "name": "Accuracy",
+                "playcount": "729846",
+                "listeners": "170660",
+                "mbid": "97701ad1-9624-4e0f-baca-384598196299",
+                "url": "https://www.last.fm/music/The+Cure/_/Accuracy",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "40"
+                }
+            },
+            {
+                "name": "Burn",
+                "playcount": "913594",
+                "listeners": "169595",
+                "mbid": "27336abd-f35e-4ada-af16-04750f48e4f2",
+                "url": "https://www.last.fm/music/The+Cure/_/Burn",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "41"
+                }
+            },
+            {
+                "name": "Grinding Halt",
+                "playcount": "724759",
+                "listeners": "169492",
+                "mbid": "b21be0c8-96fb-4b6b-b03e-0380d0d5c927",
+                "url": "https://www.last.fm/music/The+Cure/_/Grinding+Halt",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "42"
+                }
+            },
+            {
+                "name": "All Cats Are Grey",
+                "playcount": "768367",
+                "listeners": "166770",
+                "mbid": "23f96085-e556-47d1-b501-ea98908ecc44",
+                "url": "https://www.last.fm/music/The+Cure/_/All+Cats+Are+Grey",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "43"
+                }
+            },
+            {
+                "name": "The Caterpillar",
+                "playcount": "725501",
+                "listeners": "166670",
+                "mbid": "27045a66-059d-421c-a9c4-6cdae187d4da",
+                "url": "https://www.last.fm/music/The+Cure/_/The+Caterpillar",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "44"
+                }
+            },
+            {
+                "name": "Other Voices",
+                "playcount": "716419",
+                "listeners": "161227",
+                "mbid": "ab585d94-0e3c-41d0-afed-e77f67e88967",
+                "url": "https://www.last.fm/music/The+Cure/_/Other+Voices",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "45"
+                }
+            },
+            {
+                "name": "Subway Song",
+                "playcount": "614875",
+                "listeners": "159238",
+                "mbid": "8b3ccf22-32ee-4051-b143-f0aa5f79078f",
+                "url": "https://www.last.fm/music/The+Cure/_/Subway+Song",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "46"
+                }
+            },
+            {
+                "name": "Three Imaginary Boys",
+                "playcount": "715383",
+                "listeners": "158631",
+                "mbid": "f0728d96-969d-4589-a47d-2cd95c69005c",
+                "url": "https://www.last.fm/music/The+Cure/_/Three+Imaginary+Boys",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "47"
+                }
+            },
+            {
+                "name": "The End Of The World",
+                "playcount": "742759",
+                "listeners": "157134",
+                "mbid": "a509144f-c9d5-4df0-aef3-09408cab95c9",
+                "url": "https://www.last.fm/music/The+Cure/_/The+End+Of+The+World",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "48"
+                }
+            },
+            {
+                "name": "A Strange Day",
+                "playcount": "796525",
+                "listeners": "156087",
+                "mbid": "1de0653f-e1ca-499b-ada1-fb122dcb2a19",
+                "url": "https://www.last.fm/music/The+Cure/_/A+Strange+Day",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "49"
+                }
+            },
+            {
+                "name": "Siamese Twins",
+                "playcount": "743148",
+                "listeners": "153678",
+                "mbid": "0cbc288f-7526-4b4b-b307-85ca81d8e276",
+                "url": "https://www.last.fm/music/The+Cure/_/Siamese+Twins",
+                "streamable": "0",
+                "artist": {
+                    "name": "The Cure",
+                    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                    "url": "https://www.last.fm/music/The+Cure"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "50"
+                }
+            }
+        ],
+        "@attr": {
+            "artist": "The Cure",
+            "page": "1",
+            "perPage": "50",
+            "totalPages": "3918",
+            "total": "195866"
+        }
+    }
+}
