@@ -1,0 +1,7 @@
+<h3>Username: {{username}}</h3>
+<p>Favourite artists:</p>
+<ul>
+    {{#each artists}}   <!-- artists is an Array of Strings -->
+        <li>{{.}}</li>  <!-- current element of iteration -->
+    {{/each}}    
+</ul>
