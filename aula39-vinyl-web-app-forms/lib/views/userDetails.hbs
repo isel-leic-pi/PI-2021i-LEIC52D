@@ -1,7 +1,24 @@
 <h3>Username: {{username}}</h3>
-<p>Favourite artists:</p>
-<ul>
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>
+            Favourite artists:
+        </th>
+    </tr>
     {{#each artists}}   <!-- artists is an Array of Strings -->
-        <li>{{.}}</li>  <!-- current element of iteration -->
+        <!-- 
+            current element of iteration 
+        -->
+        <!-- <p class="artistItem">{{.}}</p>  -->
+        <tr>
+            <td>{{.}}</td>
+        </tr>
     {{/each}}    
-</ul>
+</table>
+<form method="POST"> <!-- By default the request is made to the origin URL -->
+    <div class="form-group">
+        <label>Artist:</label>
+        <input type="text" name="artist">
+        <input type="submit">
+    </div>
+</form>

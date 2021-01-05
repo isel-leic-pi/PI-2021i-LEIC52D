@@ -8,6 +8,7 @@ const router = Router()
 module.exports = router
 
 router.get('/vinyl/users/:username/toptracks', handlerUserTopTracks)
+router.post('/vinyl/users/:username', handlerUserAddArtist)
 router.get('/vinyl/users/:username', handlerUserDetails)
 router.get('/vinyl/users', handlerAllUsers)
 
@@ -18,6 +19,16 @@ function handlerUserTopTracks (req, resp, next) {
     vinyl
         .getTopTracks(username, limit)
         .then(tracks => resp.json(tracks))
+        .catch(next)
+}
+
+
+function handlerUserAddArtist (req, resp, next) {
+    const username = req.params.username
+    const artist = req.body.artist
+    vinyl
+        .addArtist(username, artist)
+        .then(() => resp.redirect('/vinyl/users/' + username))
         .catch(next)
 }
 
@@ -40,10 +51,10 @@ function handlerAllUsers (req, resp, next) {
     const host = req.headers.host
     users
         .getUsers()
-        .then(users => resp.json(users.map(user => {
+        .then(users => resp.render('usersListing', { 'users': users.map(user => {
             user.details = `http://${host}/vinyl/users/${user.username}`
             user.toptracks = `http://${host}/vinyl/users/${user.username}/toptracks`
             return user
-        })))
+        })}))
         .catch(next)
 }

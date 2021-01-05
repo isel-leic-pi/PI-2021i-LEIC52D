@@ -1,10 +1,21 @@
 [
     {
         "username": "gamboa",
-        "artists": ["muse", "killers", "new order"]
+        "artists": [
+            "muse",
+            "killers",
+            "new order",
+            "U2",
+            "Metallica",
+            "Queen"
+        ]
     },
     {
         "username": "laurinda",
-        "artists": ["police", "james"]
+        "artists": [
+            "police",
+            "james",
+            "Metallica"
+        ]
     }
 ]

@@ -4,6 +4,7 @@ const express = require('express')
 const routesApi = require('./routes/routes-vinyl-api')
 const routesWeb = require('./routes/routes-vinyl-web')
 const sitemap = require('express-sitemap-html')
+const bodyParser = require('body-parser')
 let server
 
 function init(usersPath, done) {
@@ -15,6 +16,7 @@ function init(usersPath, done) {
     /**
      * Routes
      */
+    app.use(bodyParser.urlencoded({ extended: false })) // parse application/x-www-form-urlencoded
     app.use('/api', routesApi)
     app.use(routesWeb)
     sitemap.swagger('Vinyl', app)
