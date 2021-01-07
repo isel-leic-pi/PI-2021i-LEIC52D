@@ -1,8 +1,6 @@
 'use strict'
 
 const express = require('express')
-const routesApi = require('./routes/routes-vinyl-api')
-const routesWeb = require('./routes/routes-vinyl-web')
 const sitemap = require('express-sitemap-html')
 const bodyParser = require('body-parser')
 const passport = require('passport')
@@ -23,13 +21,23 @@ function init(usersPath, done) {
      */
     app.use(require('cookie-parser')())
     app.use(require('express-session')({ secret: 'keyboard cat', resave: true, saveUninitialized: true }))
+    /**
+     * Add login() to req --- req.login(User):
+     * 1) passport.serializeUser --- User ---> User ID
+     * 2) saves on session User ID
+     */
     app.use(passport.initialize())
-    app.use(passport.session())
+    /**
+     * Session ----> User ID ----> User -----> req.user.
+     * converts User ID in User through passport.deserializeUser
+     */ 
+    app.use(passport.session())    // 
     /**
      * Routes domain
      */
-    app.use('/api', routesApi)
-    app.use(routesWeb)
+    app.use('/api', require('./routes/routes-vinyl-api'))
+    app.use(require('./routes/routes-vinyl-web'))
+    app.use(require('./routes/routes-vinyl-auth'))
     sitemap.swagger('Vinyl', app)
     
     /**

@@ -1,0 +1,27 @@
+<div class="row justify-content-center">
+    <div class="col-md-6 card">
+        <diV>
+            {{#if messages.error}}
+                <div class="alert alert-warning alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    {{messages.error}}
+                </div>
+            {{/if}}
+        </diV>
+        <form method="POST">
+            <div class="form-group">
+                <label>Username:</label>
+                <input type="text" name="username" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" name="password" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Log In" class="form-control btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
