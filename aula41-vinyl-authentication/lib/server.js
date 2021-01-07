@@ -5,6 +5,7 @@ const routesApi = require('./routes/routes-vinyl-api')
 const routesWeb = require('./routes/routes-vinyl-web')
 const sitemap = require('express-sitemap-html')
 const bodyParser = require('body-parser')
+const passport = require('passport')
 let server
 
 function init(usersPath, done) {
@@ -14,9 +15,19 @@ function init(usersPath, done) {
     app.set('view engine', 'hbs')
     app.set('views', './lib/views')
     /**
-     * Routes
+     * Routes util
      */
     app.use(bodyParser.urlencoded({ extended: false })) // parse application/x-www-form-urlencoded
+    /**
+     * Setup passport
+     */
+    app.use(require('cookie-parser')())
+    app.use(require('express-session')({ secret: 'keyboard cat', resave: true, saveUninitialized: true }))
+    app.use(passport.initialize())
+    app.use(passport.session())
+    /**
+     * Routes domain
+     */
     app.use('/api', routesApi)
     app.use(routesWeb)
     sitemap.swagger('Vinyl', app)
