@@ -14,6 +14,7 @@ function getUsers() {
  * @typedef User
  * @property {String} username
  * @property {Array} artists Array of strings with artists names.
+ * @property {String} password
  */
 /**
  * @param {String} username 

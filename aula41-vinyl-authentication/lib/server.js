@@ -4,6 +4,8 @@ const express = require('express')
 const sitemap = require('express-sitemap-html')
 const bodyParser = require('body-parser')
 const passport = require('passport')
+const flash = require('connect-flash')
+
 let server
 
 function init(usersPath, done) {
@@ -21,6 +23,7 @@ function init(usersPath, done) {
      */
     app.use(require('cookie-parser')())
     app.use(require('express-session')({ secret: 'keyboard cat', resave: true, saveUninitialized: true }))
+    app.use(flash())
     /**
      * Add login() to req --- req.login(User):
      * 1) passport.serializeUser --- User ---> User ID
@@ -28,7 +31,7 @@ function init(usersPath, done) {
      */
     app.use(passport.initialize())
     /**
-     * Session ----> User ID ----> User -----> req.user.
+     * Session ----> User ID ----> User -----> req.user
      * converts User ID in User through passport.deserializeUser
      */ 
     app.use(passport.session())    // 
@@ -46,7 +49,11 @@ function init(usersPath, done) {
     app.use((err, req, resp, next) => {
         if(err.status) resp.status(err.status)
         else (resp.status(500))
-        resp.send(JSON.stringify(err, Object.getOwnPropertyNames(err)))
+        resp.render('error', {
+            'status': err.status,
+            'message': err.message,
+            'stack': err.stack
+        })
         console.log(err)
     })
     server = app.listen(8000, () => {
