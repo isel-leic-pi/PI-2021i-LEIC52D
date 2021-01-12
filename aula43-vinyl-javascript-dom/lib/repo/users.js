@@ -41,7 +41,7 @@ function addUser(username) {
 /**
  * Adds a new artist name to the array of artists of the User with 
  * given username.
- * I does not verify repetitions among artists.
+ * It does not verify repetitions among artists.
  * 
  * @param {String} username 
  * @param {String} artist 
@@ -59,12 +59,43 @@ function addArtist(username, artist) {
         })
 }
 
+/**
+ * Removes artist name from the array of artists of the User with 
+ * given username.
+ * 
+ * @param {String} username 
+ * @param {String} artist Name of the artist to remove
+ * @returns {Promise<Void>}
+ */
+function removeArtist(username, artist) {
+    return fs
+        .readFile(usersPath)
+        .then(buffer => {
+            const arr = JSON.parse(buffer)
+            const selected = arr.filter(user => user.username == username)
+            if(selected.length == 0) throw UserError(400, 'There is no user ' + username)
+            const user =  selected[0]
+            const index = user.artists.indexOf(artist)
+            if(index < 0) throw UserError(400, 'There is no artist ' + artist)
+            user.artists.splice(index, 1)
+            return fs.writeFile(usersPath, JSON.stringify(arr, null, 4))
+        })
+}
+
+function UserError(status, message) {
+    const err = Error(message)
+    err.status = status
+    return err
+}
+
+
 function init(path) {
     if(path) usersPath = path
     return {
         getUser,
         getUsers,
         addArtist,
+        removeArtist,
         addUser
     }
 }

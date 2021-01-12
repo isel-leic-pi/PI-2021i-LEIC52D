@@ -41,13 +41,6 @@ router.post('/vinyl/login', (req, res, next) => {
         .catch(next)
 })
 
-function UserError(status, message) {
-    const err = Error(message)
-    err.status = status
-    return err
-}
-
-
 
 passport.serializeUser(function(user, done) {
     done(null, user.username)

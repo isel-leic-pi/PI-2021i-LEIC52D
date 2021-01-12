@@ -2,6 +2,14 @@
 
 const frisby = require('frisby')
 const server = require('./../lib/server')
+const exec = require('child_process').exec
+
+// eslint-disable-next-line no-undef
+afterEach(done => {
+    exec('git checkout HEAD -- __tests__\\mocks\\users.json')
+    done()
+})
+
 
 // eslint-disable-next-line no-undef
 beforeAll(done => {
@@ -34,6 +42,17 @@ test('Test users route for unknown username', () => frisby
     .get('http://localhost:8000/api/vinyl/users/blabla')
     .expect('status', 404)
 )
+
+test('Test users route remove artist successfuly', () => frisby
+    .del('http://localhost:8000/api/vinyl/users/laurinda/artists/killers')
+    .expect('status', 200)
+)
+
+test('Test users route remove unkown artist', () => frisby
+    .del('http://localhost:8000/api/vinyl/users/laurinda/artists/khkfhd')
+    .expect('status', 400)
+)
+
 
 const EXPECTED_USERS = [
     {
