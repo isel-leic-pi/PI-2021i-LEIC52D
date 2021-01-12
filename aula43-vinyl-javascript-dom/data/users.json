@@ -1,0 +1,23 @@
+[
+    {
+        "username": "gamboa",
+        "password": "1234",
+        "artists": [
+            "muse",
+            "killers",
+            "new order",
+            "U2",
+            "Metallica",
+            "Queen"
+        ]
+    },
+    {
+        "username": "laurinda",
+        "password": "xxxx",
+        "artists": [
+            "police",
+            "james",
+            "Metallica"
+        ]
+    }
+]
