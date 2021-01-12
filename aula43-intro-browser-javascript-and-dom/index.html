@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Dummy</title>
+        <script type='text/javascript'>
+            window.onload = setup
+
+            function setup() {
+                const input = document.querySelector('input')
+                const artistsList = document.querySelector('ul')
+                const btAdd = document.getElementById('btAdd')
+                /**
+                 * Add handler to button Add
+                 */
+                btAdd
+                    .addEventListener("click", () => handlerAddArtist(input, artistsList))
+                /**
+                 * Add handler for each button Delete
+                 */
+                document
+                    .querySelectorAll('.itemArtist')
+                    .forEach(li => {
+                        const btDelete = li.querySelector('button')
+                        btDelete.addEventListener("click", ev => handlerRemoveArtist(ev, li))
+                    })
+            }
+            /**
+             * @param {Node} input
+             * @param {Element} artistsList
+             */
+            function handlerAddArtist(input, artistsList) {
+                const artist = input.value
+                input.value = ''
+                // artistsList.innerHTML = artistsList.innerHTML + ....
+                artistsList.insertAdjacentHTML('beforeEnd', `<li>${artist}</li>`)
+            }
+            /**
+             * @param {Event} ev 
+             * @param {Element} li 
+             */
+            function handlerRemoveArtist(ev, li) {
+                li.remove()
+            }
+        </script>
+    </head>
+    <body>
+        <label>Artist:</label>
+        <input type="text">
+        <button id="btAdd">Add</button>
+        <h1>Favourite artists:</h1>
+        <ul>
+            <li class="itemArtist">
+                Metallica <button>Delete</button>
+            </li>
+            <li class="itemArtist">
+                Iron Maiden <button>Delete</button>
+            </li>
+            <li class="itemArtist">
+                Wasp <button>Delete</button>
+            </li>
+        </ul>
+    </body>
+</html>
