@@ -17,6 +17,7 @@ function init(usersPath, done) {
     /**
      * Routes util
      */
+    app.use(express.static('public'))
     app.use(bodyParser.urlencoded({ extended: false })) // parse application/x-www-form-urlencoded
     /**
      * Setup passport
