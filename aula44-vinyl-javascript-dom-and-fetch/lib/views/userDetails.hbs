@@ -12,8 +12,8 @@
             current element of iteration 
         -->
         <!-- <p class="artistItem">{{.}}</p>  -->
-        <tr class="artistItem">
-            <td class="artistName">{{.}}</td>
+        <tr class="artistItem" data-vinyl-artist-id="{{id}}">
+            <td class="artistName">{{name}}</td>
             <td><button class="btn btn-danger">Delete</button></td>
         </tr>
     {{/each}}    

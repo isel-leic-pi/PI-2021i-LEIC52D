@@ -46,6 +46,9 @@ function handlerUserDetails (req, resp, next) {
                 err.status = 404
                 return next(err)
             }
+            user.artists = user
+                .artists
+                .map((a, idx) => ({ 'name': a, 'id': idx }))
             resp.render('userDetails', user)
         })
         .catch(next)

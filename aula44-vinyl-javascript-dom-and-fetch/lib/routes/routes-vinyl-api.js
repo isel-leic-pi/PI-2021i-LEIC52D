@@ -8,7 +8,7 @@ const router = Router()
 module.exports = router
 
 router.get('/vinyl/users/:username/toptracks', handlerUserTopTracks)
-router.delete('/vinyl/users/:username/artists/:artist', handlerUserRemoveArtist)
+router.delete('/vinyl/users/:username/artists/:artistId', handlerUserRemoveArtist)
 router.get('/vinyl/users/:username', handlerUserDetails)
 router.get('/vinyl/users', handlerAllUsers)
 
@@ -25,9 +25,9 @@ function handlerUserTopTracks (req, resp, next) {
 
 function handlerUserRemoveArtist(req, resp, next) {
     const username = req.params.username
-    const artist = req.params.artist
+    const artistId = req.params.artistId
     users
-        .removeArtist(username, artist)
+        .removeArtist(username, Number(artistId))
         .then(() => resp.send())
         .catch(next)
 }

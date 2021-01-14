@@ -7,16 +7,16 @@ function setup() {
             const artistName = item.querySelector('.artistName').textContent
             item
                 .querySelector('button')
-                .addEventListener('click', () => handlerRemoveArtist(item, artistName))
+                .addEventListener('click', () => handlerRemoveArtist(item, artistName, item.dataset.vinylArtistId))
         })
 }
 
 /**
  * @param {Element} item 
  */
-function  handlerRemoveArtist(item, artistName) {
+function  handlerRemoveArtist(item, artistName, artistsId) {
     const loc = document.location.href
-    const path =  loc.replace('/vinyl', '/api/vinyl') + '/artists/' + artistName
+    const path =  loc.replace('/vinyl', '/api/vinyl') + '/artists/' + artistsId
     fetch(path, { method: 'DELETE' })
         .then(resp => {
             if(resp.status != 200) alertMsg(resp.statusText)
@@ -30,7 +30,7 @@ function  handlerRemoveArtist(item, artistName) {
 
 /**
  * @param {String} message 
- * @param {(success|danger)} kind 
+ * @param {(success|danger)} kind It is danger by default
  */
 function alertMsg(message, kind){
     if(!kind) kind = 'danger'

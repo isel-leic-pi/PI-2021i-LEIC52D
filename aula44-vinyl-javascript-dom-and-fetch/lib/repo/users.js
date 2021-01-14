@@ -64,20 +64,19 @@ function addArtist(username, artist) {
  * given username.
  * 
  * @param {String} username 
- * @param {String} artist Name of the artist to remove
+ * @param {Number} artistId Index of the artist in the array
  * @returns {Promise<Void>}
  */
-function removeArtist(username, artist) {
+function removeArtist(username, artistId) {
     return fs
         .readFile(usersPath)
         .then(buffer => {
             const arr = JSON.parse(buffer)
             const selected = arr.filter(user => user.username == username)
-            if(selected.length == 0) throw UserError(400, 'There is no user ' + username)
+            if(selected.length == 0) throw UserError(404, 'There is no user ' + username)
             const user =  selected[0]
-            const index = user.artists.indexOf(artist)
-            if(index < 0) throw UserError(400, 'There is no artist ' + artist)
-            user.artists.splice(index, 1)
+            if(artistId >= user.artists.length) throw UserError(404, 'There is no artist!')
+            user.artists.splice(artistId, 1)
             return fs.writeFile(usersPath, JSON.stringify(arr, null, 4))
         })
 }
