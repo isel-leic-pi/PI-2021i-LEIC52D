@@ -39,6 +39,10 @@ function init(usersPath, done) {
     /**
      * Routes domain
      */
+    app.post('/logout', (req, res) => {
+        req.logOut()
+        res.redirect(req.header('Referer'))
+    })
     app.use('/api', require('./routes/routes-vinyl-api'))
     app.use(require('./routes/routes-vinyl-web'))
     app.use(require('./routes/routes-vinyl-auth'))
